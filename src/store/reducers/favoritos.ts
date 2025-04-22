@@ -25,5 +25,5 @@ const favoritosSlice = createSlice({
   }
 })
 
-const { favoritar } = favoritosSlice.actions
+export const { favoritar } = favoritosSlice.actions
 export default favoritosSlice.reducer
